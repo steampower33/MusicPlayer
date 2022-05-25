@@ -1,8 +1,5 @@
-//
-//  MusicPlayerViewController.swift
-//  MusicPlayer
-//
-//  Created by SeungMin Lee on 2022/05/25.
-//
+import UIKit
 
-import Foundation
+final class MusicPlayerViewController: UIViewController {
+    
+}

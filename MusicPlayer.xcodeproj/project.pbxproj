@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD5576CD283DEF1900E54506 /* MediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5576CC283DEF1900E54506 /* MediaPlayer.swift */; };
+		CD5576D0283DEF2C00E54506 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5576CF283DEF2C00E54506 /* Song.swift */; };
+		CD5576D2283DEF3900E54506 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5576D1283DEF3900E54506 /* Album.swift */; };
+		CD5576D6283DEFD500E54506 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5576D5283DEFD500E54506 /* ViewController.swift */; };
+		CD5576D8283DF34900E54506 /* MusicPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5576D7283DF34900E54506 /* MusicPlayViewController.swift */; };
+		CDE33BCC283E2B920038E736 /* 24K Magic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDE33BC9283E2B910038E736 /* 24K Magic.mp3 */; };
+		CDE33BCD283E2B920038E736 /* The Lazy Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDE33BCA283E2B920038E736 /* The Lazy Song.mp3 */; };
+		CDE33BCE283E2B920038E736 /* Thats What I Like.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CDE33BCB283E2B920038E736 /* Thats What I Like.mp3 */; };
 		CDF110E128393DD200B7D1CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF110E028393DD200B7D1CC /* AppDelegate.swift */; };
 		CDF110E328393DD200B7D1CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF110E228393DD200B7D1CC /* SceneDelegate.swift */; };
-		CDF110E528393DD200B7D1CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF110E428393DD200B7D1CC /* ViewController.swift */; };
 		CDF110E828393DD200B7D1CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF110E628393DD200B7D1CC /* Main.storyboard */; };
 		CDF110EA28393DD600B7D1CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDF110E928393DD600B7D1CC /* Assets.xcassets */; };
 		CDF110ED28393DD600B7D1CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDF110EB28393DD600B7D1CC /* LaunchScreen.storyboard */; };
@@ -36,10 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD5576CC283DEF1900E54506 /* MediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaPlayer.swift; sourceTree = "<group>"; };
+		CD5576CF283DEF2C00E54506 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		CD5576D1283DEF3900E54506 /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		CD5576D5283DEFD500E54506 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD5576D7283DF34900E54506 /* MusicPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayViewController.swift; sourceTree = "<group>"; };
+		CDE33BC9283E2B910038E736 /* 24K Magic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "24K Magic.mp3"; sourceTree = "<group>"; };
+		CDE33BCA283E2B920038E736 /* The Lazy Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The Lazy Song.mp3"; sourceTree = "<group>"; };
+		CDE33BCB283E2B920038E736 /* Thats What I Like.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Thats What I Like.mp3"; sourceTree = "<group>"; };
 		CDF110DD28393DD200B7D1CC /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDF110E028393DD200B7D1CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDF110E228393DD200B7D1CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CDF110E428393DD200B7D1CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CDF110E728393DD200B7D1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CDF110E928393DD600B7D1CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDF110EC28393DD600B7D1CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +90,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD5576C0283DEC1700E54506 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CD5576CC283DEF1900E54506 /* MediaPlayer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CD5576CE283DEF2200E54506 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD5576CF283DEF2C00E54506 /* Song.swift */,
+				CD5576D1283DEF3900E54506 /* Album.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD5576D9283DF4CA00E54506 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				CDE33BC9283E2B910038E736 /* 24K Magic.mp3 */,
+				CDE33BCB283E2B920038E736 /* Thats What I Like.mp3 */,
+				CDE33BCA283E2B920038E736 /* The Lazy Song.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
 		CDF110D428393DD200B7D1CC = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +140,13 @@
 		CDF110DF28393DD200B7D1CC /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				CD5576D9283DF4CA00E54506 /* Songs */,
+				CD5576CE283DEF2200E54506 /* Models */,
+				CD5576C0283DEC1700E54506 /* Views */,
 				CDF110E028393DD200B7D1CC /* AppDelegate.swift */,
 				CDF110E228393DD200B7D1CC /* SceneDelegate.swift */,
-				CDF110E428393DD200B7D1CC /* ViewController.swift */,
+				CD5576D5283DEFD500E54506 /* ViewController.swift */,
+				CD5576D7283DF34900E54506 /* MusicPlayViewController.swift */,
 				CDF110E628393DD200B7D1CC /* Main.storyboard */,
 				CDF110E928393DD600B7D1CC /* Assets.xcassets */,
 				CDF110EB28393DD600B7D1CC /* LaunchScreen.storyboard */,
@@ -231,9 +276,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE33BCD283E2B920038E736 /* The Lazy Song.mp3 in Resources */,
 				CDF110ED28393DD600B7D1CC /* LaunchScreen.storyboard in Resources */,
+				CDE33BCC283E2B920038E736 /* 24K Magic.mp3 in Resources */,
 				CDF110EA28393DD600B7D1CC /* Assets.xcassets in Resources */,
 				CDF110E828393DD200B7D1CC /* Main.storyboard in Resources */,
+				CDE33BCE283E2B920038E736 /* Thats What I Like.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +306,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF110E528393DD200B7D1CC /* ViewController.swift in Sources */,
+				CD5576D6283DEFD500E54506 /* ViewController.swift in Sources */,
+				CD5576CD283DEF1900E54506 /* MediaPlayer.swift in Sources */,
 				CDF110E128393DD200B7D1CC /* AppDelegate.swift in Sources */,
 				CDF110E328393DD200B7D1CC /* SceneDelegate.swift in Sources */,
+				CD5576D0283DEF2C00E54506 /* Song.swift in Sources */,
+				CD5576D8283DF34900E54506 /* MusicPlayViewController.swift in Sources */,
+				CD5576D2283DEF3900E54506 /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
